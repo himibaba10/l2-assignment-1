@@ -125,7 +125,7 @@ async function squareAsync(n: number): Promise<number> {
       reject("Negative number not allowed");
     }
     setTimeout(() => {
-      resolve(n);
+      resolve(n * n);
     }, 1000);
   });
 }
